@@ -10,8 +10,8 @@ const Parent = () => {
     }
     return (
         <div>
-            <Child />
             <button onClick={() => parentToChild()} >Click Parent</button>
+            <Child test={data}/>
         </div>
     );
 };

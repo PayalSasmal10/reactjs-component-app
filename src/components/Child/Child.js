@@ -1,7 +1,9 @@
 
-const Child = () => {
+const Child = (props) => {
     return (
-        <div></div>
+        <div>
+            {props.test}
+        </div>
     );
 };
 
